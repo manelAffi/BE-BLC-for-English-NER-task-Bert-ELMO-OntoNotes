@@ -1,5 +1,6 @@
 # BE-BLC-for-English-NER-task-Bert-ELMO-OntoNotes
-BE-BLC model on ontotnotes 5.0 English dataset for named entity recognition task
+BE-BLC: BERT-ELMO-Based Deep Neural Network Architecture
+for English Named Entity Recognition Task
 # Requirements
 OS: Linux  
 Python version: 3.7.7  
@@ -9,7 +10,7 @@ PyTorch version: 1.4.0
 OntoNotes 5.0 from LDC (thru email)  
 CoNLL-formatted OntoNotes 5.0 scripts from http://conll.cemantix.org/2012/data.html  
 # Run
-allennlp train "path To the Json File" -s "path Where To save the outputted model"
+allennlp train "path\To\the\Json\File" -s "path\Where\To\save\the\outputted\model"
 # Test
 allennlp evaluate "/path/to/model.tar.gz" "path/to/test/data/conll-2012/v9/data/test/data/english/"
 # If you used this model please cite us as :
